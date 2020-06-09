@@ -1,0 +1,41 @@
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\School Management System.exe.config
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\School Management System.exe
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\School Management System.pdb
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\School Management System.xml
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School Management System.vbprojResolveAssemblyReference.cache
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.Resources.resources
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School Management System.vbproj.GenerateResource.Cache
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School Management System.exe
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School Management System.xml
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School Management System.pdb
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.home.resources
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.Student_Form.resources
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.Admin_Form.resources
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.Student_Login.resources
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.Student_Page.resources
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.Student_Register.resources
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\MySql.Data.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\MySql.Data.EntityFramework.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\Google.Protobuf.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\Zstandard.Net.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\BouncyCastle.Crypto.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\Ubiety.Dns.Core.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\Renci.SshNet.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\System.Buffers.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\K4os.Compression.LZ4.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\K4os.Hash.xxHash.dll
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\MySql.Data.xml
+c:\users\nana_ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.Admin_Login.resources
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School_Management_System.Admin_Page.resources
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\obj\Debug\School Management System.vbproj.School Management System.exe.config
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\System.Data.Common.dll
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\FontAwesomeIcons.dll
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\Icons8.UI.dll
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\MaterialIcons.dll
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\FontAwesomeIcons.pdb
+C:\Users\Nana_Ky3i\documents\visual studio 2015\Projects\School Management System\School Management System\bin\Debug\FontAwesomeIcons.xml

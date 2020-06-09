@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FontAwesomeIcons</name>
+    </assembly>
+    <members>
+        <member name="T:FontAwesomeIcons.FaIcons">
+            <summary>
+            Font Awesome Icons Constants.
+            </summary>
+        </member>
+        <member name="F:FontAwesomeIcons.FaIcons.Cog">
+            <summary>
+            "fa fa-cog"
+            </summary>
+        </member>
+        <member name="F:FontAwesomeIcons.FaIcons.Cogs">
+            <summary>
+            "fa fa-cogs"
+            </summary>
+        </member>
+        <member name="F:FontAwesomeIcons.FaIcons.CheckMark">
+            <summary>
+            "fa fa-check"
+            </summary>
+        </member>
+        <member name="F:FontAwesomeIcons.FaIcons.Plane">
+            <summary>
+            "fa fa-paper-plane"
+            </summary>
+        </member>
+        <member name="F:FontAwesomeIcons.FaIcons.Send">
+            <summary>
+            "fa fa-paper-plane"
+            </summary>
+        </member>
+        <member name="F:FontAwesomeIcons.FaIcons.Submit">
+            <summary>
+            "fa fa-paper-plane"
+            </summary>
+        </member>
+        <member name="F:FontAwesomeIcons.FaIcons.Key">
+            <summary>
+            "fa fa-key"
+            </summary>
+        </member>
+    </members>
+</doc>

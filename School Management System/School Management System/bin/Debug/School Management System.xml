@@ -1,0 +1,1616 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+School Management System
+</name>
+</assembly>
+<members>
+<member name="T:School_Management_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources._110619032504">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.download__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.download__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.download__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.images__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.images__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.images__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.Slide1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.Slide11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.Slide12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.Slide13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:School_Management_System.My.Resources.Resources.student_college_university_male_and_female_cartoon_college_students">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Course_RegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.GenderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Register_StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_AdminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Course_RegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.GenderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Register_StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_AdminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Course_RegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.GenderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Register_StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_AdminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet.Registered_StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.Registered_StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.Registered_StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.Course_RegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.GenderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.Register_StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.Registered_AdminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.Registered_StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(School_Management_System.School_DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(School_Management_System.School_DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(School_Management_System.School_DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(School_Management_System.School_DatabaseDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet1.GenderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet1.GenderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet1.GenderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet1TableAdapters.GenderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(School_Management_System.School_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(School_Management_System.School_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(School_Management_System.School_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateAll(School_Management_System.School_DatabaseDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet2.Course_RegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet2.Course_RegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet2.Course_RegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet2TableAdapters.Course_RegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(School_Management_System.School_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(School_Management_System.School_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(School_Management_System.School_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateAll(School_Management_System.School_DatabaseDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Course_RegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.GenderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Register_StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_AdminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Student_RegistryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeGroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeGroupDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRBusinessRuleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemPropertiesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemTypeAppliesToDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRLogicalOperatorGroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRStatusTransitionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblCodeGenInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDataQualityOperationsStateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDBErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDBUpgradeHistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDerivedHierarchyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDerivedHierarchyDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblEntityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblErrorCodesMappingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblEventDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblExternalSystemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblFileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblHierarchyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblIndexDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListRelationshipDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListRelationshipTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblLocalizedStringsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelVersionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelVersionFlagDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblNotificationQueueDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblNotificationUsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityAccessControlDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityObjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityPrivilegeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityPrivilegeFunctionalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessFunctionalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessMemberDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblStgBatchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblStgErrorDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSubscriptionViewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSyncRelationshipDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemSettingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemSettingGroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserGroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserGroupAssignmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserPreferenceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Course_RegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.GenderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Register_StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_AdminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Student_RegistryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeGroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeGroupDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRBusinessRuleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemPropertiesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemTypeAppliesToRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRLogicalOperatorGroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRStatusTransitionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblCodeGenInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDataQualityOperationsStateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDBErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDBUpgradeHistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDerivedHierarchyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDerivedHierarchyDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblEntityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblErrorCodesMappingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblEventRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblExternalSystemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblFileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblHierarchyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblIndexRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListRelationshipRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListRelationshipTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblLocalizedStringsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelVersionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelVersionFlagRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblNotificationQueueRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblNotificationUsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityAccessControlRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityObjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityPrivilegeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityPrivilegeFunctionalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessFunctionalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessMemberRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblStgBatchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblStgErrorDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSubscriptionViewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSyncRelationshipRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemSettingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemSettingGroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserGroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserGroupAssignmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserPreferenceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Course_RegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.GenderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Register_StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_AdminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Registered_StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.Student_RegistryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeGroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblAttributeGroupDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRBusinessRuleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemPropertiesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRItemTypeAppliesToRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRLogicalOperatorGroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblBRStatusTransitionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblCodeGenInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDataQualityOperationsStateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDBErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDBUpgradeHistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDerivedHierarchyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblDerivedHierarchyDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblEntityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblErrorCodesMappingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblEventRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblExternalSystemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblFileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblHierarchyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblIndexRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListRelationshipRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblListRelationshipTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblLocalizedStringsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelVersionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblModelVersionFlagRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblNotificationQueueRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblNotificationUsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityAccessControlRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityObjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityPrivilegeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityPrivilegeFunctionalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessFunctionalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSecurityRoleAccessMemberRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblStgBatchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblStgErrorDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSubscriptionViewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSyncRelationshipRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemSettingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblSystemSettingGroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserGroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserGroupAssignmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3.tblUserPreferenceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.Course_RegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.GenderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.Register_StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.Registered_AdminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.Registered_StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.Registered_StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.Registered_StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.Student_RegistryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblAttributeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblAttributeGroupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblAttributeGroupDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblBRBusinessRuleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblBRItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblBRItemPropertiesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblBRItemTypeAppliesToTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblBRLogicalOperatorGroupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblBRStatusTransitionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblCodeGenInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblDataQualityOperationsStateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblDBErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblDBUpgradeHistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblDerivedHierarchyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblDerivedHierarchyDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblEntityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblErrorCodesMappingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblEventTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblExternalSystemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblFileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblHierarchyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblIndexTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblListRelationshipTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblListRelationshipTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblLocalizedStringsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblModelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblModelVersionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblModelVersionFlagTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblNotificationQueueTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblNotificationUsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSecurityAccessControlTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSecurityObjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSecurityPrivilegeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSecurityPrivilegeFunctionalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSecurityRoleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSecurityRoleAccessTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSecurityRoleAccessFunctionalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSecurityRoleAccessMemberTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblStgBatchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblStgErrorDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSubscriptionViewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSyncRelationshipTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSystemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSystemSettingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblSystemSettingGroupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblUserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblUserGroupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblUserGroupAssignmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.tblUserPreferenceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(School_Management_System.School_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(School_Management_System.School_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(School_Management_System.School_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:School_Management_System.School_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateAll(School_Management_System.School_DatabaseDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:School_Management_System.School_DatabaseDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

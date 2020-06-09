@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B5302334-DFBB-4C30-8EA3-A1215CFE24F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>School_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>School_Management_System</RootNamespace>
+    <AssemblyName>School Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>School Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>School Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\..\School_ManagSystem\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.12.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\FontAwesome.Sharp.5.12.1\lib\net45\FontAwesome.Sharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FontAwesomeIcons, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\FontAwesomeIcons.1.0.3\lib\FontAwesomeIcons.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Icons8.UI, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\Icons8.UI.0.2.0\lib\net40\Icons8.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\K4os.Compression.LZ4.1.1.11\lib\net45\K4os.Compression.LZ4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\K4os.Compression.LZ4.Streams.1.1.11\lib\net45\K4os.Compression.LZ4.Streams.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\K4os.Hash.xxHash.1.0.6\lib\net45\K4os.Hash.xxHash.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MaterialIcons, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\MaterialIcons.1.0.3\lib\MaterialIcons.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\MySql.Data.8.0.20\lib\net452\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\System.Buffers.4.5.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\System.Data.Common.4.3.0\lib\net451\System.Data.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Data.SqlClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\System.Data.SqlClient.4.8.1\lib\net451\System.Data.SqlClient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\System.Memory.4.5.3\lib\netstandard1.1\System.Memory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\System.Runtime.CompilerServices.Unsafe.4.6.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\MySql.Data.8.0.20\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\School_ManagSystem\packages\MySql.Data.8.0.20\lib\net452\Zstandard.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Form.Designer.vb">
+      <DependentUpon>Admin_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Login.Designer.vb">
+      <DependentUpon>Admin_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Page.Designer.vb">
+      <DependentUpon>Admin_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="School_DatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_DatabaseDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_DatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_DatabaseDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_DatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_DatabaseDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_DatabaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Form.Designer.vb">
+      <DependentUpon>Student_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Login.Designer.vb">
+      <DependentUpon>Student_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Page.Designer.vb">
+      <DependentUpon>Student_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Register.Designer.vb">
+      <DependentUpon>Student_Register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin_Form.resx">
+      <DependentUpon>Admin_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Login.resx">
+      <DependentUpon>Admin_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Page.resx">
+      <DependentUpon>Admin_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Form.resx">
+      <DependentUpon>Student_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Login.resx">
+      <DependentUpon>Student_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Page.resx">
+      <DependentUpon>Student_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Register.resx">
+      <DependentUpon>Student_Register.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="110619032504.jpg" />
+    <Content Include="App_Plugins\FontAwesomeIconsDD\assets\font-awesome\css\font-awesome.min.css" />
+    <Content Include="App_Plugins\FontAwesomeIconsDD\assets\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="App_Plugins\FontAwesomeIconsDD\FontAwesomeIconsDD.controller.js" />
+    <Content Include="App_Plugins\FontAwesomeIconsDD\FontAwesomeIconsDD.html" />
+    <Content Include="Content\brands.css" />
+    <Content Include="Content\brands.min.css" />
+    <Content Include="Content\CSS\font-awesome.css" />
+    <Content Include="Content\CSS\font-awesome.min.css" />
+    <Content Include="Content\fontawesome-all.css" />
+    <Content Include="Content\fontawesome-all.min.css" />
+    <Content Include="Content\fontawesome.css" />
+    <Content Include="Content\fontawesome.min.css" />
+    <Content Include="Content\Fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\regular.css" />
+    <Content Include="Content\regular.min.css" />
+    <Content Include="Content\solid.css" />
+    <Content Include="Content\solid.min.css" />
+    <Content Include="Content\svg-with-js.css" />
+    <Content Include="Content\svg-with-js.min.css" />
+    <Content Include="Content\v4-shims.css" />
+    <Content Include="Content\v4-shims.min.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <None Include="App_Plugins\FontAwesomeIconsDD\assets\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="App_Plugins\FontAwesomeIconsDD\assets\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="App_Plugins\FontAwesomeIconsDD\assets\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="App_Plugins\FontAwesomeIconsDD\assets\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="App_Plugins\FontAwesomeIconsDD\assets\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="App_Plugins\FontAwesomeIconsDD\package.manifest" />
+    <None Include="Content\Fonts\fontawesome-webfont.eot" />
+    <None Include="Content\Fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\Fonts\fontawesome-webfont.woff" />
+    <None Include="Content\Fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\Fonts\FontAwesome.otf" />
+    <None Include="Content\Less\FontAwesome\animated.less" />
+    <None Include="Content\Less\FontAwesome\bordered-pulled.less" />
+    <None Include="Content\Less\FontAwesome\core.less" />
+    <None Include="Content\Less\FontAwesome\fixed-width.less" />
+    <None Include="Content\Less\FontAwesome\font-awesome.less" />
+    <None Include="Content\Less\FontAwesome\icons.less" />
+    <None Include="Content\Less\FontAwesome\larger.less" />
+    <None Include="Content\Less\FontAwesome\list.less" />
+    <None Include="Content\Less\FontAwesome\mixins.less" />
+    <None Include="Content\Less\FontAwesome\path.less" />
+    <None Include="Content\Less\FontAwesome\rotated-flipped.less" />
+    <None Include="Content\Less\FontAwesome\stacked.less" />
+    <None Include="Content\Less\FontAwesome\variables.less" />
+    <None Include="Content\Scss\FontAwesome\font-awesome.scss" />
+    <None Include="Content\Scss\FontAwesome\_animated.scss" />
+    <None Include="Content\Scss\FontAwesome\_bordered-pulled.scss" />
+    <None Include="Content\Scss\FontAwesome\_core.scss" />
+    <None Include="Content\Scss\FontAwesome\_fixed-width.scss" />
+    <None Include="Content\Scss\FontAwesome\_icons.scss" />
+    <None Include="Content\Scss\FontAwesome\_larger.scss" />
+    <None Include="Content\Scss\FontAwesome\_list.scss" />
+    <None Include="Content\Scss\FontAwesome\_mixins.scss" />
+    <None Include="Content\Scss\FontAwesome\_path.scss" />
+    <None Include="Content\Scss\FontAwesome\_rotated-flipped.scss" />
+    <None Include="Content\Scss\FontAwesome\_stacked.scss" />
+    <None Include="Content\Scss\FontAwesome\_variables.scss" />
+    <None Include="download.jpg" />
+    <None Include="download %282%29.jpg" />
+    <None Include="download %283%29.jpg" />
+    <None Include="download %285%29.jpg" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Resources\Slide1.JPG" />
+    <None Include="images.jpg" />
+    <None Include="images %281%29.jpg" />
+    <None Include="Resources\Slide11.JPG" />
+    <None Include="images %282%29.jpg" />
+    <None Include="images %283%29.jpg" />
+    <None Include="Resources\Slide12.JPG" />
+    <Content Include="Scripts\fontawesome\all.js" />
+    <Content Include="Scripts\fontawesome\all.min.js" />
+    <Content Include="Scripts\fontawesome\brands.js" />
+    <Content Include="Scripts\fontawesome\brands.min.js" />
+    <Content Include="Scripts\fontawesome\conflict-detection.js" />
+    <Content Include="Scripts\fontawesome\conflict-detection.min.js" />
+    <Content Include="Scripts\fontawesome\fontawesome.js" />
+    <Content Include="Scripts\fontawesome\fontawesome.min.js" />
+    <Content Include="Scripts\fontawesome\regular.js" />
+    <Content Include="Scripts\fontawesome\regular.min.js" />
+    <Content Include="Scripts\fontawesome\solid.js" />
+    <Content Include="Scripts\fontawesome\solid.min.js" />
+    <Content Include="Scripts\fontawesome\v4-shims.js" />
+    <Content Include="Scripts\fontawesome\v4-shims.min.js" />
+    <None Include="School_DatabaseDataSet.xsc">
+      <DependentUpon>School_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="School_DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_DatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_DatabaseDataSet.xss">
+      <DependentUpon>School_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="School_DatabaseDataSet1.xsc">
+      <DependentUpon>School_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="School_DatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_DatabaseDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_DatabaseDataSet1.xss">
+      <DependentUpon>School_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="School_DatabaseDataSet2.xsc">
+      <DependentUpon>School_DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="School_DatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_DatabaseDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_DatabaseDataSet2.xss">
+      <DependentUpon>School_DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="School_DatabaseDataSet3.xsc">
+      <DependentUpon>School_DatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="School_DatabaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_DatabaseDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_DatabaseDataSet3.xss">
+      <DependentUpon>School_DatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="student-college-university-male-and-female-cartoon-college-students.jpg" />
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="webfonts\fa-brands-400.eot" />
+    <None Include="webfonts\fa-brands-400.ttf" />
+    <None Include="webfonts\fa-brands-400.woff" />
+    <None Include="webfonts\fa-brands-400.woff2" />
+    <None Include="webfonts\fa-regular-400.eot" />
+    <None Include="webfonts\fa-regular-400.ttf" />
+    <None Include="webfonts\fa-regular-400.woff" />
+    <None Include="webfonts\fa-regular-400.woff2" />
+    <None Include="webfonts\fa-solid-900.eot" />
+    <None Include="webfonts\fa-solid-900.ttf" />
+    <None Include="webfonts\fa-solid-900.woff" />
+    <None Include="webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' == ''" />
+  <PropertyGroup>
+    <SsdtUnitTestVersion>2.0</SsdtUnitTestVersion>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
